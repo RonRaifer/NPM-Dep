@@ -60,7 +60,7 @@ To access the interactive API documentation, make sure the app is running, and t
 http://127.0.0.1:8000/docs
 ```
 Now you can choose whether you like to just Monitor, or getting the dependencies. An example "degifted" below:
-
+![how_to_docs](https://raw.githubusercontent.com/RonRaifer/ronraifer.github.io/main/NPM-Dep-docs/how_to_docs.gif)
 
 #### Address Bar
 
@@ -76,7 +76,7 @@ Retrieve dependencies for `express` package, with latest version:
 ```bash
 http://127.0.0.1:8000/retrieveDependencies/?package_name=express&version_or_tag=latest
 ```
-![how_to_docs](https://raw.githubusercontent.com/RonRaifer/NPM-Dep/06d763cc845d205ed738ab0e3f1b1aecfd25ec07/guide_files/how_to_docs.gif)
+![how_to_address](https://raw.githubusercontent.com/RonRaifer/ronraifer.github.io/main/NPM-Dep-docs/how_to_address.gif)
 
 
 ## Contact Info
