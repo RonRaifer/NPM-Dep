@@ -80,7 +80,7 @@ http://127.0.0.1:8000/retrieveDependencies/?package_name=express&version_or_tag=
 
 ## Future Improvements
 
-- For compactness: add TTL to each package, and reset the TTL offset upon user request, that indicated the demand of the package.
+- For compactness: add TTL to each package, and reset the TTL offset upon user request, that indicates the demand of the package.
 
 
 ## Contact Info
