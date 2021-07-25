@@ -22,7 +22,7 @@ app = FastAPI()
 BackgroundTask().start()
 
 
-def get_json_data(url: str) -> dict:
+async def get_json_data(url: str) -> dict:
     """
     Loads data from url, and converts to a Json format.
 
@@ -85,7 +85,7 @@ async def retrieve_dependencies(package_name: str, version_or_tag: str, backgrou
     else:
         try:
             url = npm_server + package_name + '/' + version_or_tag
-            data = get_json_data(url)
+            data = await get_json_data(url)
             background_tasks.add_task(update_redis, key, version_or_tag, data)
         except HTTPError:
             raise HTTPException(
